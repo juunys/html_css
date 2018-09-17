@@ -512,4 +512,24 @@ nav ul li a:hover{
     font-size: 23px;
     color: #c9c9c9;
 }
+
+/*numbers responsive*/
+
+@media screen and (min-width:576px) {
+    .numbers-center {
+      min-width: 90vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .number {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+
+@media screen and (min-width:576px) {
+    .number {
+        flex: 0 0 calc(25% - 10px);
+    }
+}
   
