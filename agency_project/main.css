@@ -179,3 +179,63 @@ nav ul li a:hover{
     background: transparent;
     border: 3px solid #f5f5f5;
 }
+
+/** TITLE **/
+.title {
+    margin: 10px 0 40px 0;
+    cursor: pointer;
+}
+.title-text {
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #575757;
+}
+.title-underline {
+    width: 45px;
+    border: 3px solid #2b98f0;
+    transition:  width 2s ease, border 2s ease;
+}
+
+.title:hover .title-underline {
+    width: 180px;
+    border: 3px solid red;
+}
+
+/************** SKILLS ******************/
+
+#skills{
+    padding: 40px;
+}
+
+.skill {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.skill .fa {
+  color: #2b98f0;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 60px;
+  transition: transform 0.5s ease-in, background 0.5s ease, color 0.5s ease;
+}
+
+.skill .fa:hover {
+  transform: scale(0.7);
+  background: #2b98f0;
+  color: #f5f5f5;
+}
+
+.skill h3 {
+  margin: 10px 0 15px 0;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #2b98f0;
+  ;
+}
+
+.skill p {
+  line-height: 1.5;
+  width: 75%;
+  margin: 0 auto;
+}
