@@ -314,59 +314,72 @@ nav ul li a:hover{
 /******* SERVICES *****/
 
 #services {
-    padding: 40px;    
+    padding: 40px;
 }
-
-.service{
+  
+.service {
     margin: 30px 0;
     display: flex;
 }
-
-.service-icon .fa{
+  
+.service-icon .fa {
     font-size: 60px;
     color: #2b98f0;
     margin-right: 20px;
 }
-
-.service-subtitle{
+  
+.service-subtitle {
     text-transform: capitalize;
     color: #2b98f0;
     font-size: 20px;
 }
-
-.service-info{
-    margin-top: 18px;
+  
+.service-info {
+    margin-top: 10px;
     line-height: 1.5;
 }
-
+  
 .service:hover .fa,
-.service:hover .service-subtitle{
-    color: rgba(0,0,0,0.8);
+.service:hover .service-subtitle {
+    color: rgba(0, 0, 0, 0.8);
 }
-
-.service:hover .service-icon{
-    color: rgb(147,147,147);
+  
+.service:hover .service-info {
+    color: rgb(147, 147, 147);
+}
+  
+/*services responsive*/
+  
+@media screen and (min-width:576px) {
+    .services-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .service {
+          flex: 0 0 calc(50% - 1em);
+    }
 }
 
 /*services responsive*/
 
 @media screen and (min-width:576px) {
     .services-center {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+          display: flex;
+          flex-wrap: wrap;
+        justify-content: space-between;
     }
     .service {
-      flex: 0 0 calc(50% - 1em);
+        flex: 0 0 calc(50% - 1em);
     }
-  }
+}
   
-  @media screen and (min-width:972px) {
+      @media screen and (min-width:972px) {
   
     .service {
-      flex: 0 0 calc(33.3% - 1em);
+          flex: 0 0 calc(33.3% - 1em);
     }
-  }
+}
 
 /******** PORTFOLIO ***********/
 
@@ -484,50 +497,53 @@ nav ul li a:hover{
 }
 
 /********* NUMBERS ************/
-#numbers{
+#numbers {
     padding: 40px;
 }
-
-.number{
+  
+.number {
     margin: 20px 0;
     text-align: center;
     transition: transform 2s ease;
 }
-
-.number:hover{
-    transform: translate(-10px);
+  
+.number:hover {
+    transform: translateY(-10px);
     cursor: pointer;
 }
-.number .fa{
+  
+.number .fa {
     font-size: 60px;
     color: #2b98f0;
 }
-
-.number h2{
+  
+.number h2 {
     font-size: 40px;
     margin: 10px 0;
     font-weight: 900;
 }
-.number h5{
+  
+.number h5 {
     font-size: 23px;
-    color: #c9c9c9;
+    color: #c9c9c9c9;
 }
-
+  
 /*numbers responsive*/
 
 @media screen and (min-width:576px) {
     .numbers-center {
-      min-width: 90vw;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+        min-width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .number {
-        flex: 0 0 calc(50% - 10px);
+       flex: 0 0 calc(50% - 10px);
     }
 }
-
+  
 @media screen and (min-width:576px) {
+  
     .number {
         flex: 0 0 calc(25% - 10px);
     }
