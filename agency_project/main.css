@@ -659,4 +659,17 @@ nav ul li a:hover{
     width: 75%;
     margin: 10px auto;
 }
+
+/*customer responsive*/
+
+@media screen and (min-width:576px) {
+    .customers-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .customer {
+        flex: 0 0 calc(33.3% - 1em);
+    }
+}
   
