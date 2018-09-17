@@ -624,4 +624,39 @@ nav ul li a:hover{
           flex: 0 0 calc(25% - 10px);
     }
 }
+
+/******** CUSTOMER **********/
+
+#customers {
+    padding: 40px;
+    background: #191919;
+}
+  
+.customer {
+    color: #f5f5f5;
+    text-align: center;
+    margin: 20px 0;
+}
+  
+.customer img {
+    border-radius: 50%;
+    max-width: 200px;
+}
+  
+.customer h3 {
+    margin: 10px 0;
+    text-transform: capitalize;
+    color: #2b98f0;
+}
+  
+.customer h5 {
+    text-transform: uppercase;
+    color: #959595;
+}
+  
+.customer p {
+    line-height: 1.5;
+    width: 75%;
+    margin: 10px auto;
+}
   
