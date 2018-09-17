@@ -726,3 +726,18 @@ form input::placeholder {
     background: #c9c9c9;
 }
     
+/*contact responsive*/
+
+@media screen and (min-width:776px) {
+    .contact-center {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #company-info {
+       flex: 0 0 calc(50% - 10px);
+    }
+    #customer-info {
+          flex: 0 0 calc(50% - 10px);
+    }
+}
