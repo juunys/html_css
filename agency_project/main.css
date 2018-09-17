@@ -347,3 +347,23 @@ nav ul li a:hover{
 .service:hover .service-icon{
     color: rgb(147,147,147);
 }
+
+/*services responsive*/
+
+@media screen and (min-width:576px) {
+    .services-center {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .service {
+      flex: 0 0 calc(50% - 1em);
+    }
+  }
+  
+  @media screen and (min-width:972px) {
+  
+    .service {
+      flex: 0 0 calc(33.3% - 1em);
+    }
+  }
