@@ -373,9 +373,9 @@ nav ul li a:hover{
 #portfolio {
     padding: 40px;
     background: #c9c9c9;
-  }
+}
   
-  .work {
+.work {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     max-height: 300px;
@@ -383,22 +383,22 @@ nav ul li a:hover{
     margin: 10px 0;
     overflow: hidden;
     /*  image overlay*/
-  }
+}
   
-  #portfolio img {
+#portfolio img {
     display: block;
     width: 100%;
     max-height: 300px;
     cursor: pointer;
     opacity: 1;
     transition: opacity 2s ease;
-  }
+}
   
-  #portfolio img:hover {
+#portfolio img:hover {
     opacity: 0.4
-  }
+}
   
-  .image-overlay {
+.image-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -411,40 +411,40 @@ nav ul li a:hover{
     padding: 0 20px;
     background: rgb(147, 147, 147);
     transition: margin 0.7s ease;
-  }
+}
   
-  .work:hover .image-overlay {
+.work:hover .image-overlay {
     margin-bottom: 0;
-  }
+}
   
-  .image-text h3 {
+.image-text h3 {
     text-transform: uppercase;
     font-size: 20px;
     margin-bottom: 5px;
     color: #f5f5f5;
-  }
+}
   
-  .image-overlay .fa {
+.image-overlay .fa {
     font-size: 30px;
     color: #2b98f0;
     padding: 10px;
     background: #f5f5f5;
     border-radius: 50%;
     transition: transform 0.7s ease, background 0.7s ease;
-  }
+}
   
-  .image-overlay .fa:hover {
+.image-overlay .fa:hover {
     transform: translateY(-10px);
     background: #082238;
-  }
+}
   
-  .section-btn {
+.section-btn {
     text-align: center;
     margin: 20px 0 10px 0;
   
-  }
+}
   
-  .section-btn a {
+.section-btn a {
     display: inline-block;
     padding: 0.5em;
     text-decoration: none;
@@ -452,15 +452,34 @@ nav ul li a:hover{
     color: #f5f5f5;
     background: #2b98f0;
     transition: background 0.7s ease, color 0.7s ease;
-  }
+}
   
-  .section-btn a:hover {
+.section-btn a:hover {
     color: #2b98f0;
     background: #f5f5f5;
-  }
+}
   
-  .section-btn .fa {
+.section-btn .fa {
     font-size: 40px;
     margin-right: 10px;
-  }
+}
+/*portfolio responsive*/
+
+@media screen and (min-width:576px) {
+    .portfolio-center {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .work {
+      flex: 0 0 calc(50% - 15px);
+    }
+}
+  
+@media screen and (min-width:776px) {
+  
+    .work {
+      flex: 0 0 calc(33.3% - 15px);
+    }
+}
   
