@@ -240,7 +240,7 @@ nav ul li a:hover{
   margin: 0 auto;
 }
 
-@media screen and (min-width: 576px){
+/*@media screen and (min-width: 576px){
     .skills-center {
         max-width: 90vw;
         margin: 0 auto;
@@ -256,5 +256,20 @@ nav ul li a:hover{
 @media screen and (min-width: 992px){
     .skill {
         flex: 0 1 calc(25% - 1em);
+    }
+}*/
+
+@media screen and (min-width:576px) {
+    .skills-center {
+        min-width: 90vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+}
+@media screen and (min-width:992px) {
+    .skills-center {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
