@@ -482,4 +482,34 @@ nav ul li a:hover{
       flex: 0 0 calc(33.3% - 15px);
     }
 }
+
+/********* NUMBERS ************/
+#numbers{
+    padding: 40px;
+}
+
+.number{
+    margin: 20px 0;
+    text-align: center;
+    transition: transform 2s ease;
+}
+
+.number:hover{
+    transform: translate(-10px);
+    cursor: pointer;
+}
+.number .fa{
+    font-size: 60px;
+    color: #2b98f0;
+}
+
+.number h2{
+    font-size: 40px;
+    margin: 10px 0;
+    font-weight: 900;
+}
+.number h5{
+    font-size: 23px;
+    color: #c9c9c9;
+}
   
