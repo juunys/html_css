@@ -687,5 +687,39 @@ form {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+/*##################progress-bars#####################*/
+
+#progress-bars {
+    padding: 100px 0;
+    background: linear-gradient(rgba(255, 201, 20, 0.3), rgba(255, 201, 20, 0.3)), url(images/background-filler-1.jpg) center/cover no-repeat fixed;
+}
+  
+.progress-item {
+    margin: 20px 0;
+}
+  
+.progress-center {
+    max-width: 70%;
+    margin: 0 auto;
+}
+  
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    color: #00a7e1;
+    text-transform: uppercase;
+}
+  
+.ui-widget-content {
+    height: 20px!important;
+    background: #f5f3f5!important;
+    border: 3px solid #00a7e1!important;
+}
+  
+.ui-widget-header {
+    background: #ffc914!important;
+}
+  
   
     
