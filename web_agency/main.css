@@ -518,6 +518,39 @@ nav ul li a:hover {
         grid-row-gap: 1em;
     }
 }
+
+/*footer*/
+
+footer {
+    background-color: #191716;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+  
+.footer-text {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #e0e2db;
+    margin-bottom: 10px;
+}
+  
+.footer-icons {
+    font-size: 30px;
+}
+  
+.footer-icons .fa {
+    margin-right: 10px;
+    color: #e0e2db;
+    transition: transform 2s;
+}
+  
+.footer-icons .fa:hover {
+    color: #e6af2e;
+    transform: translateY(-15px);
+}
   
   
   
